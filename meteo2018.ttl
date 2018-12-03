@@ -6,6 +6,16 @@
 @prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
+:meteo   a   void:Dataset;
+    foaf:page <https://goo.gl/yehmja>; 
+    foaf:page <https://github.com/alexispineau/SemanticMeteo>;    
+    void:feature <http://www.w3.org/ns/formats/Turtle>; 
+        dcterms:title "Observation meteorologique historiques France";
+        dcterms:description "Releve meteo realises en dans plusieurs villes de France de 2010 a 2018";
+        dcterms:contributor "Alexis Pineau";
+        dcterms:contributor "Alexis Loret";
+        dcterms:source <https://public.opendatasoft.com/explore/dataset/donnees-synop-essentielles-omm/table/?sort=date>; 
+
 <http://ex.org/meteo/81415>
         rdfs:type                       ex:ReleveMeteo ;
         dbo:date                        "2018-10-28T07:00:00+01:00"^^xsd:dateTime ;
