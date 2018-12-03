@@ -1,0 +1,39 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+PREFIX dbo: <http://dbpedia.org/ontology#>
+PREFIX atd: <https://data.nasa.gov/ontologies/atmonto/data#>
+PREFIX m3lite: <http://purl.org/iot/vocab/m3-lite#>
+PREFIX ex: <http://ex.org/meteo#>
+
+construct {
+	?URI_Releve rdf:type ex:ReleveMeteo;
+		dbo:date ?date;
+		dbo:temperature ?temperature;
+		atd:seaLevelPressure ?pression;
+		atd:surfaceWindSpeed ?vitessevent;
+		atd:surfaceWindDirectionStatus ?dirvent;
+		m3lite:Rainfall ?pluie;
+		dbo:city	 ?nom.
+	
+	?URI_Ville rdf:type dbo:city;
+		dbo:name ?nom;
+		dbo:coordinate ?coordonnees.
+		
+}
+from <donnees-synop-essentielles-omm2.csv>
+where {
+	bind (URI(CONCAT('http://ex.org/meteo/', ?IDOMMstation)) AS ?URI_Releve)
+	bind (xsd:dateTime(?Date) as ?date)
+	bind (?Température as ?temperature)
+	bind (?Pressionauniveaumer as ?pression)
+	bind (?Vitesseduventmoyen10mn as ?vitessevent)
+	bind (?Directionduventmoyen10mn as ?dirvent)
+	bind (?Précipitationsdansles3dernièresheures as ?pluie)
+	bind (URI(?Nom) as ?URI_Ville)
+	bind (STRDT(?Nom, xsd:string) as ?ville)
+	bind (STRDT(?Nom, xsd:string) as ?nom)
+	bind (STRDT(?Coordonnees, xsd:string) as ?coordonnees)
+}
+

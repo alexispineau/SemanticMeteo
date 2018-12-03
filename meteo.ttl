@@ -1,0 +1,2771 @@
+@prefix dbo:  <http://dbpedia.org/ontology#> .
+@prefix atd:  <https://data.nasa.gov/ontologies/atmonto/data#> .
+@prefix ex:  <http://ex.org/meteo#> .
+@prefix rdf:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix m3lite:  <http://purl.org/iot/vocab/m3-lite#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://ex.org/meteo/07335>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-01-15T01:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "282.15" ;
+        atd:seaLevelPressure            "102600" ;
+        atd:surfaceWindSpeed            "4.6" ;
+        atd:surfaceWindDirectionStatus  "200" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "POITIERS-BIARD" .
+
+<POITIERS-BIARD>  rdfs:type  dbo:city ;
+        dbo:name        "POITIERS-BIARD" ;
+        dbo:coordinate  "46.593833, 0.314333" .
+
+<http://ex.org/meteo/07181>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-01-15T04:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "280.85" ;
+        atd:seaLevelPressure            "102450" ;
+        atd:surfaceWindSpeed            "4.1" ;
+        atd:surfaceWindDirectionStatus  "260" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "NANCY-OCHEY" .
+
+<NANCY-OCHEY>  rdfs:type  dbo:city ;
+        dbo:name        "NANCY-OCHEY" ;
+        dbo:coordinate  "48.581, 5.959833" .
+
+<http://ex.org/meteo/07190>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-01-15T04:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "282.55" ;
+        atd:seaLevelPressure            "102420" ;
+        atd:surfaceWindSpeed            "3.6" ;
+        atd:surfaceWindDirectionStatus  "250" ;
+        m3lite:Rainfall                 "0.6" ;
+        dbo:city                        "STRASBOURG-ENTZHEIM" .
+
+<STRASBOURG-ENTZHEIM>
+        rdfs:type       dbo:city ;
+        dbo:name        "STRASBOURG-ENTZHEIM" ;
+        dbo:coordinate  "48.5495, 7.640333" .
+
+<http://ex.org/meteo/07535>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-01-15T04:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "281.75" ;
+        atd:seaLevelPressure            "102850" ;
+        atd:surfaceWindSpeed            "1.5" ;
+        atd:surfaceWindDirectionStatus  "170" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "GOURDON" .
+
+<GOURDON>  rdfs:type    dbo:city ;
+        dbo:name        "GOURDON" ;
+        dbo:coordinate  "44.745, 1.396667" .
+
+<http://ex.org/meteo/07747>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-01-15T04:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "284.95" ;
+        atd:seaLevelPressure            "102770" ;
+        atd:surfaceWindSpeed            "2.6" ;
+        atd:surfaceWindDirectionStatus  "320" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "PERPIGNAN" .
+
+<PERPIGNAN>  rdfs:type  dbo:city ;
+        dbo:name        "PERPIGNAN" ;
+        dbo:coordinate  "42.737167, 2.872833" .
+
+<http://ex.org/meteo/61996>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-01-15T04:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "291.05" ;
+        atd:seaLevelPressure            "101690" ;
+        atd:surfaceWindSpeed            "8.2" ;
+        atd:surfaceWindDirectionStatus  "290" ;
+        m3lite:Rainfall                 "4.0" ;
+        dbo:city                        "NOUVELLE AMSTERDAM" .
+
+<NOUVELLE%20AMSTERDAM>
+        rdfs:type       dbo:city ;
+        dbo:name        "NOUVELLE AMSTERDAM" ;
+        dbo:coordinate  "-37.795167, 77.569167" .
+
+<http://ex.org/meteo/61968>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-01-15T07:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "303.35" ;
+        atd:seaLevelPressure            "101180" ;
+        atd:surfaceWindSpeed            "1.0" ;
+        atd:surfaceWindDirectionStatus  "230" ;
+        dbo:city                        "GLORIEUSES" .
+
+<GLORIEUSES>  rdfs:type  dbo:city ;
+        dbo:name        "GLORIEUSES" ;
+        dbo:coordinate  "-11.582667, 47.289667" .
+
+<http://ex.org/meteo/61976>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-01-15T07:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "303.35" ;
+        atd:seaLevelPressure            "100980" ;
+        atd:surfaceWindSpeed            "4.1" ;
+        atd:surfaceWindDirectionStatus  "340" ;
+        dbo:city                        "TROMELIN" .
+
+<TROMELIN>  rdfs:type   dbo:city ;
+        dbo:name        "TROMELIN" ;
+        dbo:coordinate  "-15.887667, 54.520667" .
+
+<http://ex.org/meteo/07020>
+        rdfs:type             ex:ReleveMeteo ;
+        dbo:date              "2011-01-15T10:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature       "282.45" ;
+        atd:seaLevelPressure  "101930" ;
+        m3lite:Rainfall       "0.0" ;
+        dbo:city              "PTE DE LA HAGUE" .
+
+<PTE%20DE%20LA%20HAGUE>
+        rdfs:type       dbo:city ;
+        dbo:name        "PTE DE LA HAGUE" ;
+        dbo:coordinate  "49.725167, -1.939833" .
+
+<http://ex.org/meteo/07149>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-01-15T10:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "281.55" ;
+        atd:seaLevelPressure            "102560" ;
+        atd:surfaceWindSpeed            "4.1" ;
+        atd:surfaceWindDirectionStatus  "200" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "ORLY" .
+
+<ORLY>  rdfs:type       dbo:city ;
+        dbo:name        "ORLY" ;
+        dbo:coordinate  "48.716833, 2.384333" .
+
+<http://ex.org/meteo/07558>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-01-15T10:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "280.05" ;
+        atd:seaLevelPressure            "102930" ;
+        atd:surfaceWindSpeed            "4.1" ;
+        atd:surfaceWindDirectionStatus  "340" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "MILLAU" .
+
+<MILLAU>  rdfs:type     dbo:city ;
+        dbo:name        "MILLAU" ;
+        dbo:coordinate  "44.1185, 3.0195" .
+
+<http://ex.org/meteo/07630>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-01-15T10:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "276.95" ;
+        atd:seaLevelPressure            "102970" ;
+        atd:surfaceWindSpeed            "1.0" ;
+        atd:surfaceWindDirectionStatus  "190" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "TOULOUSE-BLAGNAC" .
+
+<TOULOUSE-BLAGNAC>  rdfs:type  dbo:city ;
+        dbo:name        "TOULOUSE-BLAGNAC" ;
+        dbo:coordinate  "43.621, 1.378833" .
+
+<http://ex.org/meteo/07761>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-01-15T10:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "283.05" ;
+        atd:seaLevelPressure            "102540" ;
+        atd:surfaceWindSpeed            "3.1" ;
+        atd:surfaceWindDirectionStatus  "50" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "AJACCIO" .
+
+<AJACCIO>  rdfs:type    dbo:city ;
+        dbo:name        "AJACCIO" ;
+        dbo:coordinate  "41.918, 8.792667" .
+
+<http://ex.org/meteo/61996>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-01-15T10:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "294.95" ;
+        atd:seaLevelPressure            "101780" ;
+        atd:surfaceWindSpeed            "8.2" ;
+        atd:surfaceWindDirectionStatus  "160" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "NOUVELLE AMSTERDAM" .
+
+<NOUVELLE%20AMSTERDAM>
+        rdfs:type       dbo:city ;
+        dbo:name        "NOUVELLE AMSTERDAM" ;
+        dbo:coordinate  "-37.795167, 77.569167" .
+
+<http://ex.org/meteo/07790>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-01-15T13:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "288.85" ;
+        atd:seaLevelPressure            "102390" ;
+        atd:surfaceWindSpeed            "2.6" ;
+        atd:surfaceWindDirectionStatus  "140" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "BASTIA" .
+
+<BASTIA>  rdfs:type     dbo:city ;
+        dbo:name        "BASTIA" ;
+        dbo:coordinate  "42.540667, 9.485167" .
+
+<http://ex.org/meteo/61996>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-01-15T13:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "293.05" ;
+        atd:seaLevelPressure            "101800" ;
+        atd:surfaceWindSpeed            "2.1" ;
+        atd:surfaceWindDirectionStatus  "350" ;
+        dbo:city                        "NOUVELLE AMSTERDAM" .
+
+<NOUVELLE%20AMSTERDAM>
+        rdfs:type       dbo:city ;
+        dbo:name        "NOUVELLE AMSTERDAM" ;
+        dbo:coordinate  "-37.795167, 77.569167" .
+
+<http://ex.org/meteo/81408>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-01-15T13:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "299.75" ;
+        atd:seaLevelPressure            "101100" ;
+        atd:surfaceWindSpeed            "3.1" ;
+        atd:surfaceWindDirectionStatus  "10" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "SAINT GEORGES" .
+
+<SAINT%20GEORGES>  rdfs:type  dbo:city ;
+        dbo:name        "SAINT GEORGES" ;
+        dbo:coordinate  "3.890667, -51.804667" .
+
+<http://ex.org/meteo/07168>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-01-15T16:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "284.85" ;
+        atd:seaLevelPressure            "102560" ;
+        atd:surfaceWindSpeed            "6.2" ;
+        atd:surfaceWindDirectionStatus  "210" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "TROYES-BARBEREY" .
+
+<TROYES-BARBEREY>  rdfs:type  dbo:city ;
+        dbo:name        "TROYES-BARBEREY" ;
+        dbo:coordinate  "48.324667, 4.02" .
+
+<http://ex.org/meteo/78922>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-01-15T16:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "300.75" ;
+        atd:seaLevelPressure            "101490" ;
+        atd:surfaceWindSpeed            "8.7" ;
+        atd:surfaceWindDirectionStatus  "90" ;
+        dbo:city                        "TRINITE-CARAVEL" .
+
+<TRINITE-CARAVEL>  rdfs:type  dbo:city ;
+        dbo:name        "TRINITE-CARAVEL" ;
+        dbo:coordinate  "14.7745, -60.875333" .
+
+<http://ex.org/meteo/07015>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-01-15T22:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "281.95" ;
+        atd:seaLevelPressure            "102210" ;
+        atd:surfaceWindSpeed            "7.7" ;
+        atd:surfaceWindDirectionStatus  "210" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "LILLE-LESQUIN" .
+
+<LILLE-LESQUIN>  rdfs:type  dbo:city ;
+        dbo:name        "LILLE-LESQUIN" ;
+        dbo:coordinate  "50.57, 3.0975" .
+
+<http://ex.org/meteo/81401>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-01-15T22:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "298.95" ;
+        atd:seaLevelPressure            "100870" ;
+        atd:surfaceWindSpeed            "2.1" ;
+        atd:surfaceWindDirectionStatus  "30" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "SAINT LAURENT" .
+
+<SAINT%20LAURENT>  rdfs:type  dbo:city ;
+        dbo:name        "SAINT LAURENT" ;
+        dbo:coordinate  "5.4855, -54.031667" .
+
+<http://ex.org/meteo/07207>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-01-16T04:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "283.05" ;
+        atd:surfaceWindSpeed            "6.2" ;
+        atd:surfaceWindDirectionStatus  "190" ;
+        m3lite:Rainfall                 "0.2" ;
+        dbo:city                        "BELLE ILE-LE TALUT" .
+
+<BELLE%20ILE-LE%20TALUT>
+        rdfs:type       dbo:city ;
+        dbo:name        "BELLE ILE-LE TALUT" ;
+        dbo:coordinate  "47.294333, -3.218333" .
+
+<http://ex.org/meteo/07790>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-01-16T04:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "278.45" ;
+        atd:seaLevelPressure            "102800" ;
+        atd:surfaceWindSpeed            "2.1" ;
+        atd:surfaceWindDirectionStatus  "210" ;
+        m3lite:Rainfall                 "0.2" ;
+        dbo:city                        "BASTIA" .
+
+<BASTIA>  rdfs:type     dbo:city ;
+        dbo:name        "BASTIA" ;
+        dbo:coordinate  "42.540667, 9.485167" .
+
+<http://ex.org/meteo/61972>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-01-16T04:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "300.05" ;
+        atd:seaLevelPressure            "101030" ;
+        atd:surfaceWindSpeed            "3.1" ;
+        atd:surfaceWindDirectionStatus  "130" ;
+        dbo:city                        "EUROPA" .
+
+<EUROPA>  rdfs:type     dbo:city ;
+        dbo:name        "EUROPA" ;
+        dbo:coordinate  "-22.344167, 40.340667" .
+
+<http://ex.org/meteo/07015>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-01-16T07:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "281.25" ;
+        atd:seaLevelPressure            "102210" ;
+        atd:surfaceWindSpeed            "6.2" ;
+        atd:surfaceWindDirectionStatus  "210" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "LILLE-LESQUIN" .
+
+<LILLE-LESQUIN>  rdfs:type  dbo:city ;
+        dbo:name        "LILLE-LESQUIN" ;
+        dbo:coordinate  "50.57, 3.0975" .
+
+<http://ex.org/meteo/07481>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-01-16T07:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "274.75" ;
+        atd:seaLevelPressure            "102920" ;
+        atd:surfaceWindSpeed            "2.1" ;
+        atd:surfaceWindDirectionStatus  "150" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "LYON-ST EXUPERY" .
+
+<LYON-ST%20EXUPERY>  rdfs:type  dbo:city ;
+        dbo:name        "LYON-ST EXUPERY" ;
+        dbo:coordinate  "45.7265, 5.077833" .
+
+<http://ex.org/meteo/07577>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-01-16T07:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "272.75" ;
+        atd:seaLevelPressure            "102980" ;
+        atd:surfaceWindSpeed            "0.0" ;
+        atd:surfaceWindDirectionStatus  "0" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "MONTELIMAR" .
+
+<MONTELIMAR>  rdfs:type  dbo:city ;
+        dbo:name        "MONTELIMAR" ;
+        dbo:coordinate  "44.581167, 4.733" .
+
+<http://ex.org/meteo/61972>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-01-16T07:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "305.25" ;
+        atd:seaLevelPressure            "101120" ;
+        atd:surfaceWindSpeed            "4.1" ;
+        atd:surfaceWindDirectionStatus  "110" ;
+        dbo:city                        "EUROPA" .
+
+<EUROPA>  rdfs:type     dbo:city ;
+        dbo:name        "EUROPA" ;
+        dbo:coordinate  "-22.344167, 40.340667" .
+
+<http://ex.org/meteo/07591>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-01-16T10:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "275.45" ;
+        atd:surfaceWindSpeed            "1.0" ;
+        atd:surfaceWindDirectionStatus  "80" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "EMBRUN" .
+
+<EMBRUN>  rdfs:type     dbo:city ;
+        dbo:name        "EMBRUN" ;
+        dbo:coordinate  "44.565667, 6.502333" .
+
+<http://ex.org/meteo/07015>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-01-16T13:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "284.55" ;
+        atd:seaLevelPressure            "102260" ;
+        atd:surfaceWindSpeed            "8.2" ;
+        atd:surfaceWindDirectionStatus  "200" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "LILLE-LESQUIN" .
+
+<LILLE-LESQUIN>  rdfs:type  dbo:city ;
+        dbo:name        "LILLE-LESQUIN" ;
+        dbo:coordinate  "50.57, 3.0975" .
+
+<http://ex.org/meteo/07130>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-01-16T13:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "282.05" ;
+        atd:seaLevelPressure            "102260" ;
+        atd:surfaceWindSpeed            "4.6" ;
+        atd:surfaceWindDirectionStatus  "180" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "RENNES-ST JACQUES" .
+
+<RENNES-ST%20JACQUES>
+        rdfs:type       dbo:city ;
+        dbo:name        "RENNES-ST JACQUES" ;
+        dbo:coordinate  "48.068833, -1.734" .
+
+<http://ex.org/meteo/61972>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-01-16T13:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "305.35" ;
+        atd:seaLevelPressure            "100910" ;
+        atd:surfaceWindSpeed            "3.1" ;
+        atd:surfaceWindDirectionStatus  "230" ;
+        dbo:city                        "EUROPA" .
+
+<EUROPA>  rdfs:type     dbo:city ;
+        dbo:name        "EUROPA" ;
+        dbo:coordinate  "-22.344167, 40.340667" .
+
+<http://ex.org/meteo/07747>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-01-16T16:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "284.65" ;
+        atd:seaLevelPressure            "102700" ;
+        atd:surfaceWindSpeed            "1.5" ;
+        atd:surfaceWindDirectionStatus  "270" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "PERPIGNAN" .
+
+<PERPIGNAN>  rdfs:type  dbo:city ;
+        dbo:name        "PERPIGNAN" ;
+        dbo:coordinate  "42.737167, 2.872833" .
+
+<http://ex.org/meteo/07168>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-01-16T19:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "278.35" ;
+        atd:seaLevelPressure            "102430" ;
+        atd:surfaceWindSpeed            "2.6" ;
+        atd:surfaceWindDirectionStatus  "190" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "TROYES-BARBEREY" .
+
+<TROYES-BARBEREY>  rdfs:type  dbo:city ;
+        dbo:name        "TROYES-BARBEREY" ;
+        dbo:coordinate  "48.324667, 4.02" .
+
+<http://ex.org/meteo/07280>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-01-16T19:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "275.65" ;
+        atd:seaLevelPressure            "102770" ;
+        atd:surfaceWindSpeed            "1.0" ;
+        atd:surfaceWindDirectionStatus  "180" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "DIJON-LONGVIC" .
+
+<DIJON-LONGVIC>  rdfs:type  dbo:city ;
+        dbo:name        "DIJON-LONGVIC" ;
+        dbo:coordinate  "47.267833, 5.088333" .
+
+<http://ex.org/meteo/07790>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-01-16T19:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "285.35" ;
+        atd:seaLevelPressure            "102950" ;
+        atd:surfaceWindSpeed            "0.0" ;
+        atd:surfaceWindDirectionStatus  "0" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "BASTIA" .
+
+<BASTIA>  rdfs:type     dbo:city ;
+        dbo:name        "BASTIA" ;
+        dbo:coordinate  "42.540667, 9.485167" .
+
+<http://ex.org/meteo/07222>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-01-16T22:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "282.15" ;
+        atd:seaLevelPressure            "102420" ;
+        atd:surfaceWindSpeed            "3.6" ;
+        atd:surfaceWindDirectionStatus  "160" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "NANTES-BOUGUENAIS" .
+
+<NANTES-BOUGUENAIS>  rdfs:type  dbo:city ;
+        dbo:name        "NANTES-BOUGUENAIS" ;
+        dbo:coordinate  "47.15, -1.608833" .
+
+<http://ex.org/meteo/07005>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-16T04:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "282.15" ;
+        atd:seaLevelPressure            "100980" ;
+        atd:surfaceWindSpeed            "5.1" ;
+        atd:surfaceWindDirectionStatus  "40" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "ABBEVILLE" .
+
+<ABBEVILLE>  rdfs:type  dbo:city ;
+        dbo:name        "ABBEVILLE" ;
+        dbo:coordinate  "50.136, 1.834" .
+
+<http://ex.org/meteo/07037>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-16T04:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "281.35" ;
+        atd:seaLevelPressure            "100910" ;
+        atd:surfaceWindSpeed            "3.6" ;
+        atd:surfaceWindDirectionStatus  "30" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "ROUEN-BOOS" .
+
+<ROUEN-BOOS>  rdfs:type  dbo:city ;
+        dbo:name        "ROUEN-BOOS" ;
+        dbo:coordinate  "49.383, 1.181667" .
+
+<http://ex.org/meteo/07481>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-16T04:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "282.95" ;
+        atd:seaLevelPressure            "100300" ;
+        atd:surfaceWindSpeed            "2.6" ;
+        atd:surfaceWindDirectionStatus  "140" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "LYON-ST EXUPERY" .
+
+<LYON-ST%20EXUPERY>  rdfs:type  dbo:city ;
+        dbo:name        "LYON-ST EXUPERY" ;
+        dbo:coordinate  "45.7265, 5.077833" .
+
+<http://ex.org/meteo/07460>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-16T07:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "282.25" ;
+        atd:seaLevelPressure            "100360" ;
+        atd:surfaceWindSpeed            "3.1" ;
+        atd:surfaceWindDirectionStatus  "220" ;
+        m3lite:Rainfall                 "3.0" ;
+        dbo:city                        "CLERMONT-FD" .
+
+<CLERMONT-FD>  rdfs:type  dbo:city ;
+        dbo:name        "CLERMONT-FD" ;
+        dbo:coordinate  "45.786833, 3.149333" .
+
+<http://ex.org/meteo/81401>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-16T07:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "296.05" ;
+        atd:seaLevelPressure            "101170" ;
+        atd:surfaceWindSpeed            "0.5" ;
+        atd:surfaceWindDirectionStatus  "10" ;
+        m3lite:Rainfall                 "0.6" ;
+        dbo:city                        "SAINT LAURENT" .
+
+<SAINT%20LAURENT>  rdfs:type  dbo:city ;
+        dbo:name        "SAINT LAURENT" ;
+        dbo:coordinate  "5.4855, -54.031667" .
+
+<http://ex.org/meteo/07627>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-16T13:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "282.55" ;
+        atd:seaLevelPressure            "100180" ;
+        atd:surfaceWindSpeed            "1.0" ;
+        atd:surfaceWindDirectionStatus  "340" ;
+        m3lite:Rainfall                 "15.0" ;
+        dbo:city                        "ST GIRONS" .
+
+<ST%20GIRONS>  rdfs:type  dbo:city ;
+        dbo:name        "ST GIRONS" ;
+        dbo:coordinate  "43.005333, 1.106833" .
+
+<http://ex.org/meteo/07627>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-17T13:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "284.75" ;
+        atd:seaLevelPressure            "101720" ;
+        atd:surfaceWindSpeed            "6.2" ;
+        atd:surfaceWindDirectionStatus  "290" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "ST GIRONS" .
+
+<ST%20GIRONS>  rdfs:type  dbo:city ;
+        dbo:name        "ST GIRONS" ;
+        dbo:coordinate  "43.005333, 1.106833" .
+
+<http://ex.org/meteo/61998>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-17T13:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "283.05" ;
+        atd:seaLevelPressure            "100280" ;
+        atd:surfaceWindSpeed            "14.9" ;
+        atd:surfaceWindDirectionStatus  "300" ;
+        dbo:city                        "KERGUELEN" .
+
+<KERGUELEN>  rdfs:type  dbo:city ;
+        dbo:name        "KERGUELEN" ;
+        dbo:coordinate  "-49.352333, 70.243333" .
+
+<http://ex.org/meteo/81401>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-17T13:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "297.95" ;
+        atd:seaLevelPressure            "101410" ;
+        atd:surfaceWindSpeed            "0.0" ;
+        atd:surfaceWindDirectionStatus  "0" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "SAINT LAURENT" .
+
+<SAINT%20LAURENT>  rdfs:type  dbo:city ;
+        dbo:name        "SAINT LAURENT" ;
+        dbo:coordinate  "5.4855, -54.031667" .
+
+<http://ex.org/meteo/81408>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-17T13:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "296.45" ;
+        atd:seaLevelPressure            "101410" ;
+        atd:surfaceWindSpeed            "1.0" ;
+        atd:surfaceWindDirectionStatus  "20" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "SAINT GEORGES" .
+
+<SAINT%20GEORGES>  rdfs:type  dbo:city ;
+        dbo:name        "SAINT GEORGES" ;
+        dbo:coordinate  "3.890667, -51.804667" .
+
+<http://ex.org/meteo/07280>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-17T16:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "280.55" ;
+        atd:seaLevelPressure            "101360" ;
+        atd:surfaceWindSpeed            "5.7" ;
+        atd:surfaceWindDirectionStatus  "320" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "DIJON-LONGVIC" .
+
+<DIJON-LONGVIC>  rdfs:type  dbo:city ;
+        dbo:name        "DIJON-LONGVIC" ;
+        dbo:coordinate  "47.267833, 5.088333" .
+
+<http://ex.org/meteo/07607>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-17T19:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "284.25" ;
+        atd:seaLevelPressure            "102350" ;
+        atd:surfaceWindSpeed            "3.6" ;
+        atd:surfaceWindDirectionStatus  "300" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "MONT-DE-MARSAN" .
+
+<MONT-DE-MARSAN>  rdfs:type  dbo:city ;
+        dbo:name        "MONT-DE-MARSAN" ;
+        dbo:coordinate  "43.909833, -0.500167" .
+
+<http://ex.org/meteo/78922>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-17T19:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "300.75" ;
+        atd:seaLevelPressure            "101500" ;
+        atd:surfaceWindSpeed            "6.2" ;
+        atd:surfaceWindDirectionStatus  "50" ;
+        dbo:city                        "TRINITE-CARAVEL" .
+
+<TRINITE-CARAVEL>  rdfs:type  dbo:city ;
+        dbo:name        "TRINITE-CARAVEL" ;
+        dbo:coordinate  "14.7745, -60.875333" .
+
+<http://ex.org/meteo/78925>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-17T19:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "299.45" ;
+        atd:seaLevelPressure            "101490" ;
+        atd:surfaceWindSpeed            "7.7" ;
+        atd:surfaceWindDirectionStatus  "80" ;
+        dbo:city                        "LAMENTIN-AERO" .
+
+<LAMENTIN-AERO>  rdfs:type  dbo:city ;
+        dbo:name        "LAMENTIN-AERO" ;
+        dbo:coordinate  "14.595333, -60.995667" .
+
+<http://ex.org/meteo/07255>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-17T22:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "281.35" ;
+        atd:seaLevelPressure            "102210" ;
+        atd:surfaceWindSpeed            "1.5" ;
+        atd:surfaceWindDirectionStatus  "340" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "BOURGES" .
+
+<BOURGES>  rdfs:type    dbo:city ;
+        dbo:name        "BOURGES" ;
+        dbo:coordinate  "47.059167, 2.359833" .
+
+<http://ex.org/meteo/67005>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-17T22:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "300.55" ;
+        atd:seaLevelPressure            "100950" ;
+        atd:surfaceWindSpeed            "4.1" ;
+        atd:surfaceWindDirectionStatus  "250" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "PAMANDZI" .
+
+<PAMANDZI>  rdfs:type   dbo:city ;
+        dbo:name        "PAMANDZI" ;
+        dbo:coordinate  "-12.8055, 45.282833" .
+
+<http://ex.org/meteo/81401>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-17T22:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "300.85" ;
+        atd:seaLevelPressure            "101110" ;
+        atd:surfaceWindSpeed            "3.1" ;
+        atd:surfaceWindDirectionStatus  "50" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "SAINT LAURENT" .
+
+<SAINT%20LAURENT>  rdfs:type  dbo:city ;
+        dbo:name        "SAINT LAURENT" ;
+        dbo:coordinate  "5.4855, -54.031667" .
+
+<http://ex.org/meteo/07015>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-18T04:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "276.55" ;
+        atd:seaLevelPressure            "102120" ;
+        atd:surfaceWindSpeed            "1.0" ;
+        atd:surfaceWindDirectionStatus  "150" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "LILLE-LESQUIN" .
+
+<LILLE-LESQUIN>  rdfs:type  dbo:city ;
+        dbo:name        "LILLE-LESQUIN" ;
+        dbo:coordinate  "50.57, 3.0975" .
+
+<http://ex.org/meteo/61997>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-18T04:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "283.65" ;
+        atd:seaLevelPressure            "100890" ;
+        atd:surfaceWindSpeed            "13.9" ;
+        atd:surfaceWindDirectionStatus  "300" ;
+        m3lite:Rainfall                 "0.2" ;
+        dbo:city                        "CROZET" .
+
+<CROZET>  rdfs:type     dbo:city ;
+        dbo:name        "CROZET" ;
+        dbo:coordinate  "-46.4325, 51.856667" .
+
+<http://ex.org/meteo/07280>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-18T07:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "279.45" ;
+        atd:seaLevelPressure            "102480" ;
+        atd:surfaceWindSpeed            "2.6" ;
+        atd:surfaceWindDirectionStatus  "280" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "DIJON-LONGVIC" .
+
+<DIJON-LONGVIC>  rdfs:type  dbo:city ;
+        dbo:name        "DIJON-LONGVIC" ;
+        dbo:coordinate  "47.267833, 5.088333" .
+
+<http://ex.org/meteo/07591>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-13T01:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "278.65" ;
+        atd:surfaceWindSpeed            "10.3" ;
+        atd:surfaceWindDirectionStatus  "10" ;
+        m3lite:Rainfall                 "0.6" ;
+        dbo:city                        "EMBRUN" .
+
+<EMBRUN>  rdfs:type     dbo:city ;
+        dbo:name        "EMBRUN" ;
+        dbo:coordinate  "44.565667, 6.502333" .
+
+<http://ex.org/meteo/07621>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-13T01:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "281.65" ;
+        atd:seaLevelPressure            "100110" ;
+        atd:surfaceWindSpeed            "1.5" ;
+        atd:surfaceWindDirectionStatus  "150" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "TARBES-OSSUN" .
+
+<TARBES-OSSUN>  rdfs:type  dbo:city ;
+        dbo:name        "TARBES-OSSUN" ;
+        dbo:coordinate  "43.188, 0.0" .
+
+<http://ex.org/meteo/07650>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-13T01:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "284.35" ;
+        atd:seaLevelPressure            "100350" ;
+        atd:surfaceWindSpeed            "14.4" ;
+        atd:surfaceWindDirectionStatus  "80" ;
+        m3lite:Rainfall                 "0.2" ;
+        dbo:city                        "MARIGNANE" .
+
+<MARIGNANE>  rdfs:type  dbo:city ;
+        dbo:name        "MARIGNANE" ;
+        dbo:coordinate  "43.437667, 5.216" .
+
+<http://ex.org/meteo/07661>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-13T07:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "283.25" ;
+        atd:seaLevelPressure            "100270" ;
+        atd:surfaceWindSpeed            "17.0" ;
+        atd:surfaceWindDirectionStatus  "90" ;
+        m3lite:Rainfall                 "7.0" ;
+        dbo:city                        "CAP CEPET" .
+
+<CAP%20CEPET>  rdfs:type  dbo:city ;
+        dbo:name        "CAP CEPET" ;
+        dbo:coordinate  "43.079333, 5.940833" .
+
+<http://ex.org/meteo/78897>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-13T07:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "292.75" ;
+        atd:seaLevelPressure            "101510" ;
+        atd:surfaceWindSpeed            "0.5" ;
+        atd:surfaceWindDirectionStatus  "110" ;
+        dbo:city                        "LE RAIZET AERO" .
+
+<LE%20RAIZET%20AERO>  rdfs:type  dbo:city ;
+        dbo:name        "LE RAIZET AERO" ;
+        dbo:coordinate  "16.264, -61.516333" .
+
+<http://ex.org/meteo/07027>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-13T10:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "283.15" ;
+        atd:surfaceWindSpeed            "4.6" ;
+        atd:surfaceWindDirectionStatus  "180" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "CAEN-CARPIQUET" .
+
+<CAEN-CARPIQUET>  rdfs:type  dbo:city ;
+        dbo:name        "CAEN-CARPIQUET" ;
+        dbo:coordinate  "49.18, -0.456167" .
+
+<http://ex.org/meteo/78925>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-13T10:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "295.25" ;
+        atd:seaLevelPressure            "101380" ;
+        atd:surfaceWindSpeed            "2.1" ;
+        atd:surfaceWindDirectionStatus  "30" ;
+        dbo:city                        "LAMENTIN-AERO" .
+
+<LAMENTIN-AERO>  rdfs:type  dbo:city ;
+        dbo:name        "LAMENTIN-AERO" ;
+        dbo:coordinate  "14.595333, -60.995667" .
+
+<http://ex.org/meteo/07117>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-13T13:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "281.75" ;
+        atd:seaLevelPressure            "100390" ;
+        atd:surfaceWindSpeed            "4.1" ;
+        atd:surfaceWindDirectionStatus  "340" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "PLOUMANAC'H" .
+
+<PLOUMANAC'H>  rdfs:type  dbo:city ;
+        dbo:name        "PLOUMANAC'H" ;
+        dbo:coordinate  "48.825833, -3.473167" .
+
+<http://ex.org/meteo/07471>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-13T13:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "280.85" ;
+        atd:surfaceWindSpeed            "4.6" ;
+        atd:surfaceWindDirectionStatus  "130" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "LE PUY-LOUDES" .
+
+<LE%20PUY-LOUDES>  rdfs:type  dbo:city ;
+        dbo:name        "LE PUY-LOUDES" ;
+        dbo:coordinate  "45.0745, 3.764" .
+
+<http://ex.org/meteo/07761>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-13T13:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "287.75" ;
+        atd:seaLevelPressure            "100540" ;
+        atd:surfaceWindSpeed            "0.0" ;
+        atd:surfaceWindDirectionStatus  "0" ;
+        m3lite:Rainfall                 "0.8" ;
+        dbo:city                        "AJACCIO" .
+
+<AJACCIO>  rdfs:type    dbo:city ;
+        dbo:name        "AJACCIO" ;
+        dbo:coordinate  "41.918, 8.792667" .
+
+<http://ex.org/meteo/61998>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-13T13:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "280.65" ;
+        atd:seaLevelPressure            "102100" ;
+        atd:surfaceWindSpeed            "7.7" ;
+        atd:surfaceWindDirectionStatus  "360" ;
+        dbo:city                        "KERGUELEN" .
+
+<KERGUELEN>  rdfs:type  dbo:city ;
+        dbo:name        "KERGUELEN" ;
+        dbo:coordinate  "-49.352333, 70.243333" .
+
+<http://ex.org/meteo/07005>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-13T16:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "285.35" ;
+        atd:seaLevelPressure            "100300" ;
+        atd:surfaceWindSpeed            "3.6" ;
+        atd:surfaceWindDirectionStatus  "150" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "ABBEVILLE" .
+
+<ABBEVILLE>  rdfs:type  dbo:city ;
+        dbo:name        "ABBEVILLE" ;
+        dbo:coordinate  "50.136, 1.834" .
+
+<http://ex.org/meteo/07207>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-13T16:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "286.55" ;
+        atd:surfaceWindSpeed            "3.1" ;
+        atd:surfaceWindDirectionStatus  "300" ;
+        m3lite:Rainfall                 "0.2" ;
+        dbo:city                        "BELLE ILE-LE TALUT" .
+
+<BELLE%20ILE-LE%20TALUT>
+        rdfs:type       dbo:city ;
+        dbo:name        "BELLE ILE-LE TALUT" ;
+        dbo:coordinate  "47.294333, -3.218333" .
+
+<http://ex.org/meteo/07481>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-13T16:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "282.65" ;
+        atd:seaLevelPressure            "100570" ;
+        atd:surfaceWindSpeed            "3.6" ;
+        atd:surfaceWindDirectionStatus  "330" ;
+        m3lite:Rainfall                 "2.0" ;
+        dbo:city                        "LYON-ST EXUPERY" .
+
+<LYON-ST%20EXUPERY>  rdfs:type  dbo:city ;
+        dbo:name        "LYON-ST EXUPERY" ;
+        dbo:coordinate  "45.7265, 5.077833" .
+
+<http://ex.org/meteo/07790>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-13T16:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "287.75" ;
+        atd:seaLevelPressure            "100540" ;
+        atd:surfaceWindSpeed            "1.5" ;
+        atd:surfaceWindDirectionStatus  "160" ;
+        m3lite:Rainfall                 "1.0" ;
+        dbo:city                        "BASTIA" .
+
+<BASTIA>  rdfs:type     dbo:city ;
+        dbo:name        "BASTIA" ;
+        dbo:coordinate  "42.540667, 9.485167" .
+
+<http://ex.org/meteo/61976>
+        rdfs:type        ex:ReleveMeteo ;
+        dbo:date         "2011-03-13T16:00:00+01:00"^^xsd:dateTime ;
+        m3lite:Rainfall  "0.0" ;
+        dbo:city         "TROMELIN" .
+
+<TROMELIN>  rdfs:type   dbo:city ;
+        dbo:name        "TROMELIN" ;
+        dbo:coordinate  "-15.887667, 54.520667" .
+
+<http://ex.org/meteo/81415>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-13T16:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "301.85" ;
+        atd:seaLevelPressure            "101290" ;
+        atd:surfaceWindSpeed            "1.5" ;
+        atd:surfaceWindDirectionStatus  "30" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "MARIPASOULA" .
+
+<MARIPASOULA>  rdfs:type  dbo:city ;
+        dbo:name        "MARIPASOULA" ;
+        dbo:coordinate  "3.640167, -54.028333" .
+
+<http://ex.org/meteo/07280>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-13T19:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "281.95" ;
+        atd:seaLevelPressure            "100760" ;
+        atd:surfaceWindSpeed            "2.1" ;
+        atd:surfaceWindDirectionStatus  "160" ;
+        m3lite:Rainfall                 "0.8" ;
+        dbo:city                        "DIJON-LONGVIC" .
+
+<DIJON-LONGVIC>  rdfs:type  dbo:city ;
+        dbo:name        "DIJON-LONGVIC" ;
+        dbo:coordinate  "47.267833, 5.088333" .
+
+<http://ex.org/meteo/07630>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-13T19:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "286.45" ;
+        atd:seaLevelPressure            "100580" ;
+        atd:surfaceWindSpeed            "2.6" ;
+        atd:surfaceWindDirectionStatus  "300" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "TOULOUSE-BLAGNAC" .
+
+<TOULOUSE-BLAGNAC>  rdfs:type  dbo:city ;
+        dbo:name        "TOULOUSE-BLAGNAC" ;
+        dbo:coordinate  "43.621, 1.378833" .
+
+<http://ex.org/meteo/78922>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-13T19:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "299.75" ;
+        atd:seaLevelPressure            "101460" ;
+        atd:surfaceWindSpeed            "6.2" ;
+        atd:surfaceWindDirectionStatus  "60" ;
+        dbo:city                        "TRINITE-CARAVEL" .
+
+<TRINITE-CARAVEL>  rdfs:type  dbo:city ;
+        dbo:name        "TRINITE-CARAVEL" ;
+        dbo:coordinate  "14.7745, -60.875333" .
+
+<http://ex.org/meteo/07190>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-13T22:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "282.55" ;
+        atd:seaLevelPressure            "100930" ;
+        atd:surfaceWindSpeed            "2.1" ;
+        atd:surfaceWindDirectionStatus  "280" ;
+        m3lite:Rainfall                 "0.2" ;
+        dbo:city                        "STRASBOURG-ENTZHEIM" .
+
+<STRASBOURG-ENTZHEIM>
+        rdfs:type       dbo:city ;
+        dbo:name        "STRASBOURG-ENTZHEIM" ;
+        dbo:coordinate  "48.5495, 7.640333" .
+
+<http://ex.org/meteo/61976>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-18T07:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "303.25" ;
+        atd:seaLevelPressure            "101120" ;
+        atd:surfaceWindSpeed            "6.2" ;
+        atd:surfaceWindDirectionStatus  "110" ;
+        dbo:city                        "TROMELIN" .
+
+<TROMELIN>  rdfs:type   dbo:city ;
+        dbo:name        "TROMELIN" ;
+        dbo:coordinate  "-15.887667, 54.520667" .
+
+<http://ex.org/meteo/67005>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-18T07:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "302.15" ;
+        atd:seaLevelPressure            "101030" ;
+        atd:surfaceWindSpeed            "1.5" ;
+        atd:surfaceWindDirectionStatus  "200" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "PAMANDZI" .
+
+<PAMANDZI>  rdfs:type   dbo:city ;
+        dbo:name        "PAMANDZI" ;
+        dbo:coordinate  "-12.8055, 45.282833" .
+
+<http://ex.org/meteo/07627>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-18T10:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "280.35" ;
+        atd:seaLevelPressure            "102910" ;
+        atd:surfaceWindSpeed            "1.5" ;
+        atd:surfaceWindDirectionStatus  "350" ;
+        m3lite:Rainfall                 "0.2" ;
+        dbo:city                        "ST GIRONS" .
+
+<ST%20GIRONS>  rdfs:type  dbo:city ;
+        dbo:name        "ST GIRONS" ;
+        dbo:coordinate  "43.005333, 1.106833" .
+
+<http://ex.org/meteo/07335>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-18T13:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "286.15" ;
+        atd:seaLevelPressure            "102610" ;
+        atd:surfaceWindSpeed            "4.6" ;
+        atd:surfaceWindDirectionStatus  "230" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "POITIERS-BIARD" .
+
+<POITIERS-BIARD>  rdfs:type  dbo:city ;
+        dbo:name        "POITIERS-BIARD" ;
+        dbo:coordinate  "46.593833, 0.314333" .
+
+<http://ex.org/meteo/07747>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-18T13:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "289.15" ;
+        atd:seaLevelPressure            "102230" ;
+        atd:surfaceWindSpeed            "11.8" ;
+        atd:surfaceWindDirectionStatus  "320" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "PERPIGNAN" .
+
+<PERPIGNAN>  rdfs:type  dbo:city ;
+        dbo:name        "PERPIGNAN" ;
+        dbo:coordinate  "42.737167, 2.872833" .
+
+<http://ex.org/meteo/81415>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-18T16:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "302.55" ;
+        atd:seaLevelPressure            "101270" ;
+        atd:surfaceWindSpeed            "1.5" ;
+        atd:surfaceWindDirectionStatus  "90" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "MARIPASOULA" .
+
+<MARIPASOULA>  rdfs:type  dbo:city ;
+        dbo:name        "MARIPASOULA" ;
+        dbo:coordinate  "3.640167, -54.028333" .
+
+<http://ex.org/meteo/07005>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-18T19:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "281.35" ;
+        atd:seaLevelPressure            "102220" ;
+        atd:surfaceWindSpeed            "2.6" ;
+        atd:surfaceWindDirectionStatus  "290" ;
+        m3lite:Rainfall                 "3.0" ;
+        dbo:city                        "ABBEVILLE" .
+
+<ABBEVILLE>  rdfs:type  dbo:city ;
+        dbo:name        "ABBEVILLE" ;
+        dbo:coordinate  "50.136, 1.834" .
+
+<http://ex.org/meteo/07015>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-18T19:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "281.65" ;
+        atd:seaLevelPressure            "102210" ;
+        atd:surfaceWindSpeed            "1.0" ;
+        atd:surfaceWindDirectionStatus  "200" ;
+        m3lite:Rainfall                 "2.0" ;
+        dbo:city                        "LILLE-LESQUIN" .
+
+<LILLE-LESQUIN>  rdfs:type  dbo:city ;
+        dbo:name        "LILLE-LESQUIN" ;
+        dbo:coordinate  "50.57, 3.0975" .
+
+<http://ex.org/meteo/07015>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-18T22:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "280.05" ;
+        atd:seaLevelPressure            "102370" ;
+        atd:surfaceWindSpeed            "6.7" ;
+        atd:surfaceWindDirectionStatus  "30" ;
+        m3lite:Rainfall                 "3.0" ;
+        dbo:city                        "LILLE-LESQUIN" .
+
+<LILLE-LESQUIN>  rdfs:type  dbo:city ;
+        dbo:name        "LILLE-LESQUIN" ;
+        dbo:coordinate  "50.57, 3.0975" .
+
+<http://ex.org/meteo/07335>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-18T22:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "283.95" ;
+        atd:seaLevelPressure            "102680" ;
+        atd:surfaceWindSpeed            "5.1" ;
+        atd:surfaceWindDirectionStatus  "250" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "POITIERS-BIARD" .
+
+<POITIERS-BIARD>  rdfs:type  dbo:city ;
+        dbo:name        "POITIERS-BIARD" ;
+        dbo:coordinate  "46.593833, 0.314333" .
+
+<http://ex.org/meteo/71805>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-18T22:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "274.35" ;
+        atd:seaLevelPressure            "100160" ;
+        atd:surfaceWindSpeed            "11.3" ;
+        atd:surfaceWindDirectionStatus  "180" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "ST-PIERRE" .
+
+<ST-PIERRE>  rdfs:type  dbo:city ;
+        dbo:name        "ST-PIERRE" ;
+        dbo:coordinate  "46.766333, -56.179167" .
+
+<http://ex.org/meteo/07168>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-19T01:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "283.35" ;
+        atd:seaLevelPressure            "102240" ;
+        atd:surfaceWindSpeed            "5.1" ;
+        atd:surfaceWindDirectionStatus  "240" ;
+        m3lite:Rainfall                 "2.0" ;
+        dbo:city                        "TROYES-BARBEREY" .
+
+<TROYES-BARBEREY>  rdfs:type  dbo:city ;
+        dbo:name        "TROYES-BARBEREY" ;
+        dbo:coordinate  "48.324667, 4.02" .
+
+<http://ex.org/meteo/07627>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-19T01:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "282.85" ;
+        atd:seaLevelPressure            "102940" ;
+        atd:surfaceWindSpeed            "4.1" ;
+        atd:surfaceWindDirectionStatus  "310" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "ST GIRONS" .
+
+<ST%20GIRONS>  rdfs:type  dbo:city ;
+        dbo:name        "ST GIRONS" ;
+        dbo:coordinate  "43.005333, 1.106833" .
+
+<http://ex.org/meteo/07015>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-19T04:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "278.15" ;
+        atd:seaLevelPressure            "102810" ;
+        atd:surfaceWindSpeed            "6.2" ;
+        atd:surfaceWindDirectionStatus  "20" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "LILLE-LESQUIN" .
+
+<LILLE-LESQUIN>  rdfs:type  dbo:city ;
+        dbo:name        "LILLE-LESQUIN" ;
+        dbo:coordinate  "50.57, 3.0975" .
+
+<http://ex.org/meteo/07761>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-19T04:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "280.25" ;
+        atd:seaLevelPressure            "101750" ;
+        atd:surfaceWindSpeed            "2.6" ;
+        atd:surfaceWindDirectionStatus  "40" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "AJACCIO" .
+
+<AJACCIO>  rdfs:type    dbo:city ;
+        dbo:name        "AJACCIO" ;
+        dbo:coordinate  "41.918, 8.792667" .
+
+<http://ex.org/meteo/07240>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-19T10:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "279.65" ;
+        atd:seaLevelPressure            "103110" ;
+        atd:surfaceWindSpeed            "4.1" ;
+        atd:surfaceWindDirectionStatus  "20" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "TOURS" .
+
+<TOURS>  rdfs:type      dbo:city ;
+        dbo:name        "TOURS" ;
+        dbo:coordinate  "47.4445, 0.727333" .
+
+<http://ex.org/meteo/07335>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-19T10:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "280.85" ;
+        atd:seaLevelPressure            "103060" ;
+        atd:surfaceWindSpeed            "5.7" ;
+        atd:surfaceWindDirectionStatus  "10" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "POITIERS-BIARD" .
+
+<POITIERS-BIARD>  rdfs:type  dbo:city ;
+        dbo:name        "POITIERS-BIARD" ;
+        dbo:coordinate  "46.593833, 0.314333" .
+
+<http://ex.org/meteo/07630>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-19T10:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "284.75" ;
+        atd:seaLevelPressure            "102930" ;
+        atd:surfaceWindSpeed            "5.7" ;
+        atd:surfaceWindDirectionStatus  "280" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "TOULOUSE-BLAGNAC" .
+
+<TOULOUSE-BLAGNAC>  rdfs:type  dbo:city ;
+        dbo:name        "TOULOUSE-BLAGNAC" ;
+        dbo:coordinate  "43.621, 1.378833" .
+
+<http://ex.org/meteo/81401>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-19T10:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "296.05" ;
+        atd:seaLevelPressure            "101050" ;
+        atd:surfaceWindSpeed            "0.0" ;
+        atd:surfaceWindDirectionStatus  "0" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "SAINT LAURENT" .
+
+<SAINT%20LAURENT>  rdfs:type  dbo:city ;
+        dbo:name        "SAINT LAURENT" ;
+        dbo:coordinate  "5.4855, -54.031667" .
+
+<http://ex.org/meteo/07690>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-19T13:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "288.25" ;
+        atd:seaLevelPressure            "101800" ;
+        atd:surfaceWindSpeed            "3.1" ;
+        atd:surfaceWindDirectionStatus  "120" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "NICE" .
+
+<NICE>  rdfs:type       dbo:city ;
+        dbo:name        "NICE" ;
+        dbo:coordinate  "43.648833, 7.209" .
+
+<http://ex.org/meteo/61980>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-19T13:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "302.45" ;
+        atd:seaLevelPressure            "100890" ;
+        atd:surfaceWindSpeed            "8.7" ;
+        atd:surfaceWindDirectionStatus  "100" ;
+        dbo:city                        "GILLOT-AEROPORT" .
+
+<GILLOT-AEROPORT>  rdfs:type  dbo:city ;
+        dbo:name        "GILLOT-AEROPORT" ;
+        dbo:coordinate  "-20.8925, 55.528667" .
+
+<http://ex.org/meteo/07650>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2011-03-19T16:00:00+01:00"^^xsd:dateTime ;
+        dbo:temperature                 "290.65" ;
+        atd:seaLevelPressure            "101820" ;
+        atd:surfaceWindSpeed            "12.3" ;
+        atd:surfaceWindDirectionStatus  "330" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "MARIGNANE" .
+
+<MARIGNANE>  rdfs:type  dbo:city ;
+        dbo:name        "MARIGNANE" ;
+        dbo:coordinate  "43.437667, 5.216" .
+
+<http://ex.org/meteo/07005>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-04-25T02:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "282.15" ;
+        atd:seaLevelPressure            "101130" ;
+        atd:surfaceWindSpeed            "2.7" ;
+        atd:surfaceWindDirectionStatus  "320" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "ABBEVILLE" .
+
+<ABBEVILLE>  rdfs:type  dbo:city ;
+        dbo:name        "ABBEVILLE" ;
+        dbo:coordinate  "50.136, 1.834" .
+
+<http://ex.org/meteo/07149>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-04-25T02:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "280.85" ;
+        atd:seaLevelPressure            "101150" ;
+        atd:surfaceWindSpeed            "2.5" ;
+        atd:surfaceWindDirectionStatus  "290" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "ORLY" .
+
+<ORLY>  rdfs:type       dbo:city ;
+        dbo:name        "ORLY" ;
+        dbo:coordinate  "48.716833, 2.384333" .
+
+<http://ex.org/meteo/07471>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-04-25T02:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "279.35" ;
+        atd:surfaceWindSpeed            "2.3" ;
+        atd:surfaceWindDirectionStatus  "50" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "LE PUY-LOUDES" .
+
+<LE%20PUY-LOUDES>  rdfs:type  dbo:city ;
+        dbo:name        "LE PUY-LOUDES" ;
+        dbo:coordinate  "45.0745, 3.764" .
+
+<http://ex.org/meteo/61997>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-04-25T05:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "275.55" ;
+        atd:seaLevelPressure            "98940" ;
+        atd:surfaceWindSpeed            "14.4" ;
+        atd:surfaceWindDirectionStatus  "240" ;
+        m3lite:Rainfall                 "1.0" ;
+        dbo:city                        "CROZET" .
+
+<CROZET>  rdfs:type     dbo:city ;
+        dbo:name        "CROZET" ;
+        dbo:coordinate  "-46.4325, 51.856667" .
+
+<http://ex.org/meteo/07149>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-04-25T08:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "278.75" ;
+        atd:seaLevelPressure            "101280" ;
+        atd:surfaceWindSpeed            "5.1" ;
+        atd:surfaceWindDirectionStatus  "360" ;
+        m3lite:Rainfall                 "-0.1" ;
+        dbo:city                        "ORLY" .
+
+<ORLY>  rdfs:type       dbo:city ;
+        dbo:name        "ORLY" ;
+        dbo:coordinate  "48.716833, 2.384333" .
+
+<http://ex.org/meteo/07460>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-04-25T11:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "284.95" ;
+        atd:seaLevelPressure            "101010" ;
+        atd:surfaceWindSpeed            "0.0" ;
+        atd:surfaceWindDirectionStatus  "0" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "CLERMONT-FD" .
+
+<CLERMONT-FD>  rdfs:type  dbo:city ;
+        dbo:name        "CLERMONT-FD" ;
+        dbo:coordinate  "45.786833, 3.149333" .
+
+<http://ex.org/meteo/78897>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-04-25T11:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "298.75" ;
+        atd:seaLevelPressure            "101360" ;
+        atd:surfaceWindSpeed            "3.0" ;
+        atd:surfaceWindDirectionStatus  "120" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "LE RAIZET AERO" .
+
+<LE%20RAIZET%20AERO>  rdfs:type  dbo:city ;
+        dbo:name        "LE RAIZET AERO" ;
+        dbo:coordinate  "16.264, -61.516333" .
+
+<http://ex.org/meteo/07117>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-04-25T14:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "284.45" ;
+        atd:seaLevelPressure            "101610" ;
+        atd:surfaceWindSpeed            "6.3" ;
+        atd:surfaceWindDirectionStatus  "10" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "PLOUMANAC'H" .
+
+<PLOUMANAC'H>  rdfs:type  dbo:city ;
+        dbo:name        "PLOUMANAC'H" ;
+        dbo:coordinate  "48.825833, -3.473167" .
+
+<http://ex.org/meteo/07255>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-04-25T14:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "281.45" ;
+        atd:seaLevelPressure            "101070" ;
+        atd:surfaceWindSpeed            "5.3" ;
+        atd:surfaceWindDirectionStatus  "20" ;
+        m3lite:Rainfall                 "0.6" ;
+        dbo:city                        "BOURGES" .
+
+<BOURGES>  rdfs:type    dbo:city ;
+        dbo:name        "BOURGES" ;
+        dbo:coordinate  "47.059167, 2.359833" .
+
+<http://ex.org/meteo/07535>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-04-25T14:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "285.35" ;
+        atd:seaLevelPressure            "100870" ;
+        atd:surfaceWindSpeed            "0.0" ;
+        atd:surfaceWindDirectionStatus  "0" ;
+        m3lite:Rainfall                 "3.2" ;
+        dbo:city                        "GOURDON" .
+
+<GOURDON>  rdfs:type    dbo:city ;
+        dbo:name        "GOURDON" ;
+        dbo:coordinate  "44.745, 1.396667" .
+
+<http://ex.org/meteo/07181>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-04-25T20:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "277.25" ;
+        atd:seaLevelPressure            "101060" ;
+        atd:surfaceWindSpeed            "2.9" ;
+        atd:surfaceWindDirectionStatus  "150" ;
+        m3lite:Rainfall                 "-0.1" ;
+        dbo:city                        "NANCY-OCHEY" .
+
+<NANCY-OCHEY>  rdfs:type  dbo:city ;
+        dbo:name        "NANCY-OCHEY" ;
+        dbo:coordinate  "48.581, 5.959833" .
+
+<http://ex.org/meteo/61980>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-04-25T20:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "295.15" ;
+        atd:seaLevelPressure            "101660" ;
+        atd:surfaceWindSpeed            "2.1" ;
+        atd:surfaceWindDirectionStatus  "200" ;
+        m3lite:Rainfall                 "1.6" ;
+        dbo:city                        "GILLOT-AEROPORT" .
+
+<GILLOT-AEROPORT>  rdfs:type  dbo:city ;
+        dbo:name        "GILLOT-AEROPORT" ;
+        dbo:coordinate  "-20.8925, 55.528667" .
+
+<http://ex.org/meteo/61996>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-04-25T20:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "293.15" ;
+        atd:seaLevelPressure            "100610" ;
+        atd:surfaceWindSpeed            "12.3" ;
+        atd:surfaceWindDirectionStatus  "310" ;
+        m3lite:Rainfall                 "0.4" ;
+        dbo:city                        "NOUVELLE AMSTERDAM" .
+
+<NOUVELLE%20AMSTERDAM>
+        rdfs:type       dbo:city ;
+        dbo:name        "NOUVELLE AMSTERDAM" ;
+        dbo:coordinate  "-37.795167, 77.569167" .
+
+<http://ex.org/meteo/61997>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-04-25T20:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "277.55" ;
+        atd:seaLevelPressure            "99040" ;
+        atd:surfaceWindSpeed            "16.5" ;
+        atd:surfaceWindDirectionStatus  "310" ;
+        m3lite:Rainfall                 "0.4" ;
+        dbo:city                        "CROZET" .
+
+<CROZET>  rdfs:type     dbo:city ;
+        dbo:name        "CROZET" ;
+        dbo:coordinate  "-46.4325, 51.856667" .
+
+<http://ex.org/meteo/07110>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-04-26T02:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "277.15" ;
+        atd:seaLevelPressure            "101770" ;
+        atd:surfaceWindSpeed            "1.8" ;
+        atd:surfaceWindDirectionStatus  "350" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "BREST-GUIPAVAS" .
+
+<BREST-GUIPAVAS>  rdfs:type  dbo:city ;
+        dbo:name        "BREST-GUIPAVAS" ;
+        dbo:coordinate  "48.444167, -4.412" .
+
+<http://ex.org/meteo/07314>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-04-26T02:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "280.65" ;
+        atd:seaLevelPressure            "101380" ;
+        atd:surfaceWindSpeed            "4.7" ;
+        atd:surfaceWindDirectionStatus  "10" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "PTE DE CHASSIRON" .
+
+<PTE%20DE%20CHASSIRON>
+        rdfs:type       dbo:city ;
+        dbo:name        "PTE DE CHASSIRON" ;
+        dbo:coordinate  "46.046833, -1.4115" .
+
+<http://ex.org/meteo/61972>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-04-26T02:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "296.45" ;
+        atd:seaLevelPressure            "101820" ;
+        atd:surfaceWindSpeed            "5.6" ;
+        atd:surfaceWindDirectionStatus  "150" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "EUROPA" .
+
+<EUROPA>  rdfs:type     dbo:city ;
+        dbo:name        "EUROPA" ;
+        dbo:coordinate  "-22.344167, 40.340667" .
+
+<http://ex.org/meteo/61976>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-04-26T02:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "300.75" ;
+        atd:seaLevelPressure            "101370" ;
+        atd:surfaceWindSpeed            "5.2" ;
+        atd:surfaceWindDirectionStatus  "130" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "TROMELIN" .
+
+<TROMELIN>  rdfs:type   dbo:city ;
+        dbo:name        "TROMELIN" ;
+        dbo:coordinate  "-15.887667, 54.520667" .
+
+<http://ex.org/meteo/07240>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-04-26T05:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "276.35" ;
+        atd:seaLevelPressure            "101300" ;
+        atd:surfaceWindSpeed            "3.1" ;
+        atd:surfaceWindDirectionStatus  "340" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "TOURS" .
+
+<TOURS>  rdfs:type      dbo:city ;
+        dbo:name        "TOURS" ;
+        dbo:coordinate  "47.4445, 0.727333" .
+
+<http://ex.org/meteo/07621>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-04-26T05:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "282.05" ;
+        atd:seaLevelPressure            "100960" ;
+        atd:surfaceWindSpeed            "3.0" ;
+        atd:surfaceWindDirectionStatus  "270" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "TARBES-OSSUN" .
+
+<TARBES-OSSUN>  rdfs:type  dbo:city ;
+        dbo:name        "TARBES-OSSUN" ;
+        dbo:coordinate  "43.188, 0.0" .
+
+<http://ex.org/meteo/07643>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-04-26T05:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "284.75" ;
+        atd:seaLevelPressure            "100650" ;
+        atd:surfaceWindSpeed            "2.4" ;
+        atd:surfaceWindDirectionStatus  "350" ;
+        m3lite:Rainfall                 "2.0" ;
+        dbo:city                        "MONTPELLIER" .
+
+<MONTPELLIER>  rdfs:type  dbo:city ;
+        dbo:name        "MONTPELLIER" ;
+        dbo:coordinate  "43.577, 3.963167" .
+
+<http://ex.org/meteo/07761>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-04-26T05:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "285.35" ;
+        atd:seaLevelPressure            "100890" ;
+        atd:surfaceWindSpeed            "2.5" ;
+        atd:surfaceWindDirectionStatus  "60" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "AJACCIO" .
+
+<AJACCIO>  rdfs:type    dbo:city ;
+        dbo:name        "AJACCIO" ;
+        dbo:coordinate  "41.918, 8.792667" .
+
+<http://ex.org/meteo/81415>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-04-26T05:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "296.35" ;
+        atd:seaLevelPressure            "101170" ;
+        atd:surfaceWindSpeed            "1.0" ;
+        atd:surfaceWindDirectionStatus  "90" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "MARIPASOULA" .
+
+<MARIPASOULA>  rdfs:type  dbo:city ;
+        dbo:name        "MARIPASOULA" ;
+        dbo:coordinate  "3.640167, -54.028333" .
+
+<http://ex.org/meteo/07577>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-04-26T08:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "283.05" ;
+        atd:seaLevelPressure            "100780" ;
+        atd:surfaceWindSpeed            "4.6" ;
+        atd:surfaceWindDirectionStatus  "20" ;
+        m3lite:Rainfall                 "-0.1" ;
+        dbo:city                        "MONTELIMAR" .
+
+<MONTELIMAR>  rdfs:type  dbo:city ;
+        dbo:name        "MONTELIMAR" ;
+        dbo:coordinate  "44.581167, 4.733" .
+
+<http://ex.org/meteo/61976>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-04-26T08:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "299.75" ;
+        atd:seaLevelPressure            "101640" ;
+        atd:surfaceWindSpeed            "8.3" ;
+        atd:surfaceWindDirectionStatus  "140" ;
+        m3lite:Rainfall                 "8.8" ;
+        dbo:city                        "TROMELIN" .
+
+<TROMELIN>  rdfs:type   dbo:city ;
+        dbo:name        "TROMELIN" ;
+        dbo:coordinate  "-15.887667, 54.520667" .
+
+<http://ex.org/meteo/78922>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-04-26T08:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "299.35" ;
+        atd:seaLevelPressure            "101200" ;
+        atd:surfaceWindSpeed            "5.8" ;
+        atd:surfaceWindDirectionStatus  "80" ;
+        m3lite:Rainfall                 "0.6" ;
+        dbo:city                        "TRINITE-CARAVEL" .
+
+<TRINITE-CARAVEL>  rdfs:type  dbo:city ;
+        dbo:name        "TRINITE-CARAVEL" ;
+        dbo:coordinate  "14.7745, -60.875333" .
+
+<http://ex.org/meteo/07072>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-04-26T11:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "281.05" ;
+        atd:seaLevelPressure            "101360" ;
+        atd:surfaceWindSpeed            "2.3" ;
+        atd:surfaceWindDirectionStatus  "350" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "REIMS-PRUNAY" .
+
+<REIMS-PRUNAY>  rdfs:type  dbo:city ;
+        dbo:name        "REIMS-PRUNAY" ;
+        dbo:coordinate  "49.209667, 4.155333" .
+
+<http://ex.org/meteo/07181>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-04-26T11:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "278.35" ;
+        atd:seaLevelPressure            "101250" ;
+        atd:surfaceWindSpeed            "2.3" ;
+        atd:surfaceWindDirectionStatus  "350" ;
+        m3lite:Rainfall                 "-0.1" ;
+        dbo:city                        "NANCY-OCHEY" .
+
+<NANCY-OCHEY>  rdfs:type  dbo:city ;
+        dbo:name        "NANCY-OCHEY" ;
+        dbo:coordinate  "48.581, 5.959833" .
+
+<http://ex.org/meteo/07577>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-04-26T11:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "282.15" ;
+        atd:seaLevelPressure            "100970" ;
+        atd:surfaceWindSpeed            "6.1" ;
+        atd:surfaceWindDirectionStatus  "20" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "MONTELIMAR" .
+
+<MONTELIMAR>  rdfs:type  dbo:city ;
+        dbo:name        "MONTELIMAR" ;
+        dbo:coordinate  "44.581167, 4.733" .
+
+<http://ex.org/meteo/07607>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-04-26T11:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "280.25" ;
+        atd:seaLevelPressure            "101500" ;
+        atd:surfaceWindSpeed            "2.9" ;
+        atd:surfaceWindDirectionStatus  "360" ;
+        m3lite:Rainfall                 "0.2" ;
+        dbo:city                        "MONT-DE-MARSAN" .
+
+<MONT-DE-MARSAN>  rdfs:type  dbo:city ;
+        dbo:name        "MONT-DE-MARSAN" ;
+        dbo:coordinate  "43.909833, -0.500167" .
+
+<http://ex.org/meteo/07761>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-04-26T14:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "294.45" ;
+        atd:seaLevelPressure            "100860" ;
+        atd:surfaceWindSpeed            "3.4" ;
+        atd:surfaceWindDirectionStatus  "250" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "AJACCIO" .
+
+<AJACCIO>  rdfs:type    dbo:city ;
+        dbo:name        "AJACCIO" ;
+        dbo:coordinate  "41.918, 8.792667" .
+
+<http://ex.org/meteo/61976>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-04-26T14:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "301.25" ;
+        atd:seaLevelPressure            "101320" ;
+        atd:surfaceWindSpeed            "1.4" ;
+        atd:surfaceWindDirectionStatus  "120" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "TROMELIN" .
+
+<TROMELIN>  rdfs:type   dbo:city ;
+        dbo:name        "TROMELIN" ;
+        dbo:coordinate  "-15.887667, 54.520667" .
+
+<http://ex.org/meteo/07139>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-04-26T17:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "280.25" ;
+        atd:seaLevelPressure            "101700" ;
+        atd:surfaceWindSpeed            "6.3" ;
+        atd:surfaceWindDirectionStatus  "360" ;
+        m3lite:Rainfall                 "0.2" ;
+        dbo:city                        "ALENCON" .
+
+<ALENCON>  rdfs:type    dbo:city ;
+        dbo:name        "ALENCON" ;
+        dbo:coordinate  "48.4455, 0.110167" .
+
+<http://ex.org/meteo/07181>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-04-26T20:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "277.95" ;
+        atd:seaLevelPressure            "101430" ;
+        atd:surfaceWindSpeed            "2.8" ;
+        atd:surfaceWindDirectionStatus  "350" ;
+        m3lite:Rainfall                 "-0.1" ;
+        dbo:city                        "NANCY-OCHEY" .
+
+<NANCY-OCHEY>  rdfs:type  dbo:city ;
+        dbo:name        "NANCY-OCHEY" ;
+        dbo:coordinate  "48.581, 5.959833" .
+
+<http://ex.org/meteo/07222>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-04-26T23:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "276.85" ;
+        atd:seaLevelPressure            "101960" ;
+        atd:surfaceWindSpeed            "1.3" ;
+        atd:surfaceWindDirectionStatus  "10" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "NANTES-BOUGUENAIS" .
+
+<NANTES-BOUGUENAIS>  rdfs:type  dbo:city ;
+        dbo:name        "NANTES-BOUGUENAIS" ;
+        dbo:coordinate  "47.15, -1.608833" .
+
+<http://ex.org/meteo/07471>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-04-26T23:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "274.35" ;
+        atd:surfaceWindSpeed            "2.7" ;
+        atd:surfaceWindDirectionStatus  "290" ;
+        m3lite:Rainfall                 "-0.1" ;
+        dbo:city                        "LE PUY-LOUDES" .
+
+<LE%20PUY-LOUDES>  rdfs:type  dbo:city ;
+        dbo:name        "LE PUY-LOUDES" ;
+        dbo:coordinate  "45.0745, 3.764" .
+
+<http://ex.org/meteo/07558>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-04-26T23:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "275.75" ;
+        atd:seaLevelPressure            "101550" ;
+        atd:surfaceWindSpeed            "4.4" ;
+        atd:surfaceWindDirectionStatus  "310" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "MILLAU" .
+
+<MILLAU>  rdfs:type     dbo:city ;
+        dbo:name        "MILLAU" ;
+        dbo:coordinate  "44.1185, 3.0195" .
+
+<http://ex.org/meteo/07621>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-04-26T23:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "279.25" ;
+        atd:seaLevelPressure            "101770" ;
+        atd:surfaceWindSpeed            "2.2" ;
+        atd:surfaceWindDirectionStatus  "220" ;
+        m3lite:Rainfall                 "-0.1" ;
+        dbo:city                        "TARBES-OSSUN" .
+
+<TARBES-OSSUN>  rdfs:type  dbo:city ;
+        dbo:name        "TARBES-OSSUN" ;
+        dbo:coordinate  "43.188, 0.0" .
+
+<http://ex.org/meteo/78894>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-04-26T23:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "301.05" ;
+        atd:seaLevelPressure            "101360" ;
+        atd:surfaceWindSpeed            "2.9" ;
+        atd:surfaceWindDirectionStatus  "100" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "ST-BARTHELEMY METEO" .
+
+<ST-BARTHELEMY%20METEO>
+        rdfs:type       dbo:city ;
+        dbo:name        "ST-BARTHELEMY METEO" ;
+        dbo:coordinate  "17.9015, -62.852167" .
+
+<http://ex.org/meteo/07299>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-04-27T02:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "277.05" ;
+        atd:seaLevelPressure            "101460" ;
+        atd:surfaceWindSpeed            "5.0" ;
+        atd:surfaceWindDirectionStatus  "320" ;
+        m3lite:Rainfall                 "1.8" ;
+        dbo:city                        "BALE-MULHOUSE" .
+
+<BALE-MULHOUSE>  rdfs:type  dbo:city ;
+        dbo:name        "BALE-MULHOUSE" ;
+        dbo:coordinate  "47.614333, 7.51" .
+
+<http://ex.org/meteo/07535>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-16T05:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "289.75" ;
+        atd:seaLevelPressure            "102390" ;
+        atd:surfaceWindSpeed            "1.6" ;
+        atd:surfaceWindDirectionStatus  "310" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "GOURDON" .
+
+<GOURDON>  rdfs:type    dbo:city ;
+        dbo:name        "GOURDON" ;
+        dbo:coordinate  "44.745, 1.396667" .
+
+<http://ex.org/meteo/07643>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-16T05:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "298.25" ;
+        atd:seaLevelPressure            "101840" ;
+        atd:surfaceWindSpeed            "2.5" ;
+        atd:surfaceWindDirectionStatus  "270" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "MONTPELLIER" .
+
+<MONTPELLIER>  rdfs:type  dbo:city ;
+        dbo:name        "MONTPELLIER" ;
+        dbo:coordinate  "43.577, 3.963167" .
+
+<http://ex.org/meteo/07558>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-16T08:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "292.05" ;
+        atd:seaLevelPressure            "102130" ;
+        atd:surfaceWindSpeed            "4.0" ;
+        atd:surfaceWindDirectionStatus  "290" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "MILLAU" .
+
+<MILLAU>  rdfs:type     dbo:city ;
+        dbo:name        "MILLAU" ;
+        dbo:coordinate  "44.1185, 3.0195" .
+
+<http://ex.org/meteo/07761>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-16T08:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "296.65" ;
+        atd:seaLevelPressure            "101610" ;
+        atd:surfaceWindSpeed            "1.6" ;
+        atd:surfaceWindDirectionStatus  "30" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "AJACCIO" .
+
+<AJACCIO>  rdfs:type    dbo:city ;
+        dbo:name        "AJACCIO" ;
+        dbo:coordinate  "41.918, 8.792667" .
+
+<http://ex.org/meteo/81408>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-16T08:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "296.35" ;
+        atd:seaLevelPressure            "101330" ;
+        atd:surfaceWindSpeed            "0.0" ;
+        atd:surfaceWindDirectionStatus  "0" ;
+        m3lite:Rainfall                 "1.0" ;
+        dbo:city                        "SAINT GEORGES" .
+
+<SAINT%20GEORGES>  rdfs:type  dbo:city ;
+        dbo:name        "SAINT GEORGES" ;
+        dbo:coordinate  "3.890667, -51.804667" .
+
+<http://ex.org/meteo/07591>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-16T11:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "298.05" ;
+        atd:surfaceWindSpeed            "2.7" ;
+        atd:surfaceWindDirectionStatus  "190" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "EMBRUN" .
+
+<EMBRUN>  rdfs:type     dbo:city ;
+        dbo:name        "EMBRUN" ;
+        dbo:coordinate  "44.565667, 6.502333" .
+
+<http://ex.org/meteo/07630>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-16T11:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "296.45" ;
+        atd:seaLevelPressure            "102460" ;
+        atd:surfaceWindSpeed            "3.2" ;
+        atd:surfaceWindDirectionStatus  "260" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "TOULOUSE-BLAGNAC" .
+
+<TOULOUSE-BLAGNAC>  rdfs:type  dbo:city ;
+        dbo:name        "TOULOUSE-BLAGNAC" ;
+        dbo:coordinate  "43.621, 1.378833" .
+
+<http://ex.org/meteo/78922>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-16T11:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "300.35" ;
+        atd:seaLevelPressure            "101430" ;
+        atd:surfaceWindSpeed            "7.3" ;
+        atd:surfaceWindDirectionStatus  "130" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "TRINITE-CARAVEL" .
+
+<TRINITE-CARAVEL>  rdfs:type  dbo:city ;
+        dbo:name        "TRINITE-CARAVEL" ;
+        dbo:coordinate  "14.7745, -60.875333" .
+
+<http://ex.org/meteo/89642>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-16T11:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "256.55" ;
+        atd:seaLevelPressure            "97930" ;
+        atd:surfaceWindSpeed            "12.9" ;
+        atd:surfaceWindDirectionStatus  "110" ;
+        dbo:city                        "DUMONT D'URVILLE" .
+
+<DUMONT%20D'URVILLE>  rdfs:type  dbo:city ;
+        dbo:name        "DUMONT D'URVILLE" ;
+        dbo:coordinate  "-66.663167, 140.001" .
+
+<http://ex.org/meteo/07535>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-16T17:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "300.25" ;
+        atd:seaLevelPressure            "102300" ;
+        atd:surfaceWindSpeed            "3.5" ;
+        atd:surfaceWindDirectionStatus  "340" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "GOURDON" .
+
+<GOURDON>  rdfs:type    dbo:city ;
+        dbo:name        "GOURDON" ;
+        dbo:coordinate  "44.745, 1.396667" .
+
+<http://ex.org/meteo/81415>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-16T17:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "302.65" ;
+        atd:seaLevelPressure            "101360" ;
+        atd:surfaceWindSpeed            "0.7" ;
+        atd:surfaceWindDirectionStatus  "160" ;
+        dbo:city                        "MARIPASOULA" .
+
+<MARIPASOULA>  rdfs:type  dbo:city ;
+        dbo:name        "MARIPASOULA" ;
+        dbo:coordinate  "3.640167, -54.028333" .
+
+<http://ex.org/meteo/07027>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-16T20:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "291.75" ;
+        atd:seaLevelPressure            "102770" ;
+        atd:surfaceWindSpeed            "3.3" ;
+        atd:surfaceWindDirectionStatus  "360" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "CAEN-CARPIQUET" .
+
+<CAEN-CARPIQUET>  rdfs:type  dbo:city ;
+        dbo:name        "CAEN-CARPIQUET" ;
+        dbo:coordinate  "49.18, -0.456167" .
+
+<http://ex.org/meteo/07130>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-16T20:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "294.45" ;
+        atd:seaLevelPressure            "102750" ;
+        atd:surfaceWindSpeed            "4.6" ;
+        atd:surfaceWindDirectionStatus  "350" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "RENNES-ST JACQUES" .
+
+<RENNES-ST%20JACQUES>
+        rdfs:type       dbo:city ;
+        dbo:name        "RENNES-ST JACQUES" ;
+        dbo:coordinate  "48.068833, -1.734" .
+
+<http://ex.org/meteo/07643>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-16T20:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "305.95" ;
+        atd:seaLevelPressure            "101670" ;
+        atd:surfaceWindSpeed            "7.6" ;
+        atd:surfaceWindDirectionStatus  "10" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "MONTPELLIER" .
+
+<MONTPELLIER>  rdfs:type  dbo:city ;
+        dbo:name        "MONTPELLIER" ;
+        dbo:coordinate  "43.577, 3.963167" .
+
+<http://ex.org/meteo/07790>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-16T23:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "296.45" ;
+        atd:seaLevelPressure            "101440" ;
+        atd:surfaceWindSpeed            "0.0" ;
+        atd:surfaceWindDirectionStatus  "0" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "BASTIA" .
+
+<BASTIA>  rdfs:type     dbo:city ;
+        dbo:name        "BASTIA" ;
+        dbo:coordinate  "42.540667, 9.485167" .
+
+<http://ex.org/meteo/89642>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-16T23:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "250.95" ;
+        atd:seaLevelPressure            "98310" ;
+        atd:surfaceWindSpeed            "3.1" ;
+        atd:surfaceWindDirectionStatus  "70" ;
+        dbo:city                        "DUMONT D'URVILLE" .
+
+<DUMONT%20D'URVILLE>  rdfs:type  dbo:city ;
+        dbo:name        "DUMONT D'URVILLE" ;
+        dbo:coordinate  "-66.663167, 140.001" .
+
+<http://ex.org/meteo/07005>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-17T02:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "286.15" ;
+        atd:seaLevelPressure            "102810" ;
+        atd:surfaceWindSpeed            "1.2" ;
+        atd:surfaceWindDirectionStatus  "200" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "ABBEVILLE" .
+
+<ABBEVILLE>  rdfs:type  dbo:city ;
+        dbo:name        "ABBEVILLE" ;
+        dbo:coordinate  "50.136, 1.834" .
+
+<http://ex.org/meteo/07117>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-17T02:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "286.85" ;
+        atd:seaLevelPressure            "102960" ;
+        atd:surfaceWindSpeed            "1.6" ;
+        atd:surfaceWindDirectionStatus  "260" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "PLOUMANAC'H" .
+
+<PLOUMANAC'H>  rdfs:type  dbo:city ;
+        dbo:name        "PLOUMANAC'H" ;
+        dbo:coordinate  "48.825833, -3.473167" .
+
+<http://ex.org/meteo/07577>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-17T02:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "296.05" ;
+        atd:seaLevelPressure            "102010" ;
+        atd:surfaceWindSpeed            "7.6" ;
+        atd:surfaceWindDirectionStatus  "360" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "MONTELIMAR" .
+
+<MONTELIMAR>  rdfs:type  dbo:city ;
+        dbo:name        "MONTELIMAR" ;
+        dbo:coordinate  "44.581167, 4.733" .
+
+<http://ex.org/meteo/07747>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-17T02:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "299.05" ;
+        atd:seaLevelPressure            "101950" ;
+        atd:surfaceWindSpeed            "4.9" ;
+        atd:surfaceWindDirectionStatus  "320" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "PERPIGNAN" .
+
+<PERPIGNAN>  rdfs:type  dbo:city ;
+        dbo:name        "PERPIGNAN" ;
+        dbo:coordinate  "42.737167, 2.872833" .
+
+<http://ex.org/meteo/07207>
+        rdfs:type             ex:ReleveMeteo ;
+        dbo:date              "2017-06-17T11:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature       "293.15" ;
+        atd:seaLevelPressure  "102740" ;
+        m3lite:Rainfall       "0.0" ;
+        dbo:city              "BELLE ILE-LE TALUT" .
+
+<BELLE%20ILE-LE%20TALUT>
+        rdfs:type       dbo:city ;
+        dbo:name        "BELLE ILE-LE TALUT" ;
+        dbo:coordinate  "47.294333, -3.218333" .
+
+<http://ex.org/meteo/07535>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-17T11:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "295.85" ;
+        atd:seaLevelPressure            "102240" ;
+        atd:surfaceWindSpeed            "4.4" ;
+        atd:surfaceWindDirectionStatus  "40" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "GOURDON" .
+
+<GOURDON>  rdfs:type    dbo:city ;
+        dbo:name        "GOURDON" ;
+        dbo:coordinate  "44.745, 1.396667" .
+
+<http://ex.org/meteo/07627>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-17T11:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "297.25" ;
+        atd:seaLevelPressure            "102130" ;
+        atd:surfaceWindSpeed            "1.1" ;
+        atd:surfaceWindDirectionStatus  "350" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "ST GIRONS" .
+
+<ST%20GIRONS>  rdfs:type  dbo:city ;
+        dbo:name        "ST GIRONS" ;
+        dbo:coordinate  "43.005333, 1.106833" .
+
+<http://ex.org/meteo/61997>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-17T11:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "277.75" ;
+        atd:seaLevelPressure            "102410" ;
+        atd:surfaceWindSpeed            "12.3" ;
+        atd:surfaceWindDirectionStatus  "20" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "CROZET" .
+
+<CROZET>  rdfs:type     dbo:city ;
+        dbo:name        "CROZET" ;
+        dbo:coordinate  "-46.4325, 51.856667" .
+
+<http://ex.org/meteo/07314>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-17T14:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "297.35" ;
+        atd:seaLevelPressure            "102430" ;
+        atd:surfaceWindSpeed            "3.5" ;
+        atd:surfaceWindDirectionStatus  "40" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "PTE DE CHASSIRON" .
+
+<PTE%20DE%20CHASSIRON>
+        rdfs:type       dbo:city ;
+        dbo:name        "PTE DE CHASSIRON" ;
+        dbo:coordinate  "46.046833, -1.4115" .
+
+<http://ex.org/meteo/61997>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-17T17:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "277.45" ;
+        atd:seaLevelPressure            "102120" ;
+        atd:surfaceWindSpeed            "12.3" ;
+        atd:surfaceWindDirectionStatus  "30" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "CROZET" .
+
+<CROZET>  rdfs:type     dbo:city ;
+        dbo:name        "CROZET" ;
+        dbo:coordinate  "-46.4325, 51.856667" .
+
+<http://ex.org/meteo/78897>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-17T17:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "303.15" ;
+        atd:seaLevelPressure            "101590" ;
+        atd:surfaceWindSpeed            "6.6" ;
+        atd:surfaceWindDirectionStatus  "70" ;
+        m3lite:Rainfall                 "-0.1" ;
+        dbo:city                        "LE RAIZET AERO" .
+
+<LE%20RAIZET%20AERO>  rdfs:type  dbo:city ;
+        dbo:name        "LE RAIZET AERO" ;
+        dbo:coordinate  "16.264, -61.516333" .
+
+<http://ex.org/meteo/07207>
+        rdfs:type             ex:ReleveMeteo ;
+        dbo:date              "2017-06-17T20:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature       "297.05" ;
+        atd:seaLevelPressure  "102350" ;
+        m3lite:Rainfall       "0.0" ;
+        dbo:city              "BELLE ILE-LE TALUT" .
+
+<BELLE%20ILE-LE%20TALUT>
+        rdfs:type       dbo:city ;
+        dbo:name        "BELLE ILE-LE TALUT" ;
+        dbo:coordinate  "47.294333, -3.218333" .
+
+<http://ex.org/meteo/07577>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-17T20:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "299.75" ;
+        atd:seaLevelPressure            "101630" ;
+        atd:surfaceWindSpeed            "7.0" ;
+        atd:surfaceWindDirectionStatus  "10" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "MONTELIMAR" .
+
+<MONTELIMAR>  rdfs:type  dbo:city ;
+        dbo:name        "MONTELIMAR" ;
+        dbo:coordinate  "44.581167, 4.733" .
+
+<http://ex.org/meteo/07591>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-17T20:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "298.55" ;
+        atd:surfaceWindSpeed            "3.2" ;
+        atd:surfaceWindDirectionStatus  "190" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "EMBRUN" .
+
+<EMBRUN>  rdfs:type     dbo:city ;
+        dbo:name        "EMBRUN" ;
+        dbo:coordinate  "44.565667, 6.502333" .
+
+<http://ex.org/meteo/61996>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-17T20:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "283.65" ;
+        atd:seaLevelPressure            "102990" ;
+        atd:surfaceWindSpeed            "7.7" ;
+        atd:surfaceWindDirectionStatus  "130" ;
+        m3lite:Rainfall                 "0.2" ;
+        dbo:city                        "NOUVELLE AMSTERDAM" .
+
+<NOUVELLE%20AMSTERDAM>
+        rdfs:type       dbo:city ;
+        dbo:name        "NOUVELLE AMSTERDAM" ;
+        dbo:coordinate  "-37.795167, 77.569167" .
+
+<http://ex.org/meteo/07299>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-17T23:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "291.25" ;
+        atd:seaLevelPressure            "102440" ;
+        atd:surfaceWindSpeed            "3.2" ;
+        atd:surfaceWindDirectionStatus  "360" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "BALE-MULHOUSE" .
+
+<BALE-MULHOUSE>  rdfs:type  dbo:city ;
+        dbo:name        "BALE-MULHOUSE" ;
+        dbo:coordinate  "47.614333, 7.51" .
+
+<http://ex.org/meteo/07661>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-18T02:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "299.05" ;
+        atd:seaLevelPressure            "101360" ;
+        atd:surfaceWindSpeed            "3.9" ;
+        atd:surfaceWindDirectionStatus  "50" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "CAP CEPET" .
+
+<CAP%20CEPET>  rdfs:type  dbo:city ;
+        dbo:name        "CAP CEPET" ;
+        dbo:coordinate  "43.079333, 5.940833" .
+
+<http://ex.org/meteo/07020>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-18T05:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "287.05" ;
+        atd:seaLevelPressure            "102450" ;
+        atd:surfaceWindSpeed            "4.7" ;
+        atd:surfaceWindDirectionStatus  "90" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "PTE DE LA HAGUE" .
+
+<PTE%20DE%20LA%20HAGUE>
+        rdfs:type       dbo:city ;
+        dbo:name        "PTE DE LA HAGUE" ;
+        dbo:coordinate  "49.725167, -1.939833" .
+
+<http://ex.org/meteo/07072>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-18T05:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "288.65" ;
+        atd:seaLevelPressure            "102470" ;
+        atd:surfaceWindSpeed            "0.7" ;
+        atd:surfaceWindDirectionStatus  "140" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "REIMS-PRUNAY" .
+
+<REIMS-PRUNAY>  rdfs:type  dbo:city ;
+        dbo:name        "REIMS-PRUNAY" ;
+        dbo:coordinate  "49.209667, 4.155333" .
+
+<http://ex.org/meteo/07299>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-18T05:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "284.55" ;
+        atd:seaLevelPressure            "102450" ;
+        atd:surfaceWindSpeed            "0.7" ;
+        atd:surfaceWindDirectionStatus  "270" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "BALE-MULHOUSE" .
+
+<BALE-MULHOUSE>  rdfs:type  dbo:city ;
+        dbo:name        "BALE-MULHOUSE" ;
+        dbo:coordinate  "47.614333, 7.51" .
+
+<http://ex.org/meteo/07335>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-18T05:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "291.65" ;
+        atd:seaLevelPressure            "102080" ;
+        atd:surfaceWindSpeed            "3.6" ;
+        atd:surfaceWindDirectionStatus  "60" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "POITIERS-BIARD" .
+
+<POITIERS-BIARD>  rdfs:type  dbo:city ;
+        dbo:name        "POITIERS-BIARD" ;
+        dbo:coordinate  "46.593833, 0.314333" .
+
+<http://ex.org/meteo/07460>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-18T05:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "289.65" ;
+        atd:seaLevelPressure            "102070" ;
+        atd:surfaceWindSpeed            "0.8" ;
+        atd:surfaceWindDirectionStatus  "90" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "CLERMONT-FD" .
+
+<CLERMONT-FD>  rdfs:type  dbo:city ;
+        dbo:name        "CLERMONT-FD" ;
+        dbo:coordinate  "45.786833, 3.149333" .
+
+<http://ex.org/meteo/07558>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-18T05:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "289.35" ;
+        atd:seaLevelPressure            "101700" ;
+        atd:surfaceWindSpeed            "3.8" ;
+        atd:surfaceWindDirectionStatus  "30" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "MILLAU" .
+
+<MILLAU>  rdfs:type     dbo:city ;
+        dbo:name        "MILLAU" ;
+        dbo:coordinate  "44.1185, 3.0195" .
+
+<http://ex.org/meteo/07117>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-18T08:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "290.15" ;
+        atd:seaLevelPressure            "102340" ;
+        atd:surfaceWindSpeed            "3.6" ;
+        atd:surfaceWindDirectionStatus  "110" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "PLOUMANAC'H" .
+
+<PLOUMANAC'H>  rdfs:type  dbo:city ;
+        dbo:name        "PLOUMANAC'H" ;
+        dbo:coordinate  "48.825833, -3.473167" .
+
+<http://ex.org/meteo/07207>
+        rdfs:type             ex:ReleveMeteo ;
+        dbo:date              "2017-06-18T08:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature       "293.05" ;
+        atd:seaLevelPressure  "102170" ;
+        m3lite:Rainfall       "0.0" ;
+        dbo:city              "BELLE ILE-LE TALUT" .
+
+<BELLE%20ILE-LE%20TALUT>
+        rdfs:type       dbo:city ;
+        dbo:name        "BELLE ILE-LE TALUT" ;
+        dbo:coordinate  "47.294333, -3.218333" .
+
+<http://ex.org/meteo/89642>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-11T20:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "247.55" ;
+        atd:seaLevelPressure            "99640" ;
+        atd:surfaceWindSpeed            "11.8" ;
+        atd:surfaceWindDirectionStatus  "110" ;
+        dbo:city                        "DUMONT D'URVILLE" .
+
+<DUMONT%20D'URVILLE>  rdfs:type  dbo:city ;
+        dbo:name        "DUMONT D'URVILLE" ;
+        dbo:coordinate  "-66.663167, 140.001" .
+
+<http://ex.org/meteo/78922>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-11T23:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "301.15" ;
+        atd:seaLevelPressure            "101330" ;
+        atd:surfaceWindSpeed            "7.9" ;
+        atd:surfaceWindDirectionStatus  "90" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "TRINITE-CARAVEL" .
+
+<TRINITE-CARAVEL>  rdfs:type  dbo:city ;
+        dbo:name        "TRINITE-CARAVEL" ;
+        dbo:coordinate  "14.7745, -60.875333" .
+
+<http://ex.org/meteo/07027>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-12T02:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "284.55" ;
+        atd:seaLevelPressure            "101990" ;
+        atd:surfaceWindSpeed            "2.5" ;
+        atd:surfaceWindDirectionStatus  "250" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "CAEN-CARPIQUET" .
+
+<CAEN-CARPIQUET>  rdfs:type  dbo:city ;
+        dbo:name        "CAEN-CARPIQUET" ;
+        dbo:coordinate  "49.18, -0.456167" .
+
+<http://ex.org/meteo/07190>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-12T02:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "294.95" ;
+        atd:seaLevelPressure            "101470" ;
+        atd:surfaceWindSpeed            "1.4" ;
+        atd:surfaceWindDirectionStatus  "200" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "STRASBOURG-ENTZHEIM" .
+
+<STRASBOURG-ENTZHEIM>
+        rdfs:type       dbo:city ;
+        dbo:name        "STRASBOURG-ENTZHEIM" ;
+        dbo:coordinate  "48.5495, 7.640333" .
+
+<http://ex.org/meteo/78925>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-12T02:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "300.45" ;
+        atd:seaLevelPressure            "101510" ;
+        atd:surfaceWindSpeed            "6.1" ;
+        atd:surfaceWindDirectionStatus  "90" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "LAMENTIN-AERO" .
+
+<LAMENTIN-AERO>  rdfs:type  dbo:city ;
+        dbo:name        "LAMENTIN-AERO" ;
+        dbo:coordinate  "14.595333, -60.995667" .
+
+<http://ex.org/meteo/07190>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-12T05:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "292.65" ;
+        atd:seaLevelPressure            "101530" ;
+        atd:surfaceWindSpeed            "2.7" ;
+        atd:surfaceWindDirectionStatus  "300" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "STRASBOURG-ENTZHEIM" .
+
+<STRASBOURG-ENTZHEIM>
+        rdfs:type       dbo:city ;
+        dbo:name        "STRASBOURG-ENTZHEIM" ;
+        dbo:coordinate  "48.5495, 7.640333" .
+
+<http://ex.org/meteo/07630>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-12T05:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "292.15" ;
+        atd:seaLevelPressure            "102070" ;
+        atd:surfaceWindSpeed            "4.8" ;
+        atd:surfaceWindDirectionStatus  "280" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "TOULOUSE-BLAGNAC" .
+
+<TOULOUSE-BLAGNAC>  rdfs:type  dbo:city ;
+        dbo:name        "TOULOUSE-BLAGNAC" ;
+        dbo:coordinate  "43.621, 1.378833" .
+
+<http://ex.org/meteo/07015>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-12T08:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "287.35" ;
+        atd:seaLevelPressure            "101760" ;
+        atd:surfaceWindSpeed            "4.5" ;
+        atd:surfaceWindDirectionStatus  "210" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "LILLE-LESQUIN" .
+
+<LILLE-LESQUIN>  rdfs:type  dbo:city ;
+        dbo:name        "LILLE-LESQUIN" ;
+        dbo:coordinate  "50.57, 3.0975" .
+
+<http://ex.org/meteo/07591>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-12T08:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "291.65" ;
+        atd:surfaceWindSpeed            "1.1" ;
+        atd:surfaceWindDirectionStatus  "80" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "EMBRUN" .
+
+<EMBRUN>  rdfs:type     dbo:city ;
+        dbo:name        "EMBRUN" ;
+        dbo:coordinate  "44.565667, 6.502333" .
+
+<http://ex.org/meteo/07117>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-12T11:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "288.65" ;
+        atd:seaLevelPressure            "102290" ;
+        atd:surfaceWindSpeed            "4.2" ;
+        atd:surfaceWindDirectionStatus  "290" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "PLOUMANAC'H" .
+
+<PLOUMANAC'H>  rdfs:type  dbo:city ;
+        dbo:name        "PLOUMANAC'H" ;
+        dbo:coordinate  "48.825833, -3.473167" .
+
+<http://ex.org/meteo/07149>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-12T14:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "293.75" ;
+        atd:seaLevelPressure            "102120" ;
+        atd:surfaceWindSpeed            "4.5" ;
+        atd:surfaceWindDirectionStatus  "310" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "ORLY" .
+
+<ORLY>  rdfs:type       dbo:city ;
+        dbo:name        "ORLY" ;
+        dbo:coordinate  "48.716833, 2.384333" .
+
+<http://ex.org/meteo/07168>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-12T14:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "295.25" ;
+        atd:seaLevelPressure            "102010" ;
+        atd:surfaceWindSpeed            "4.5" ;
+        atd:surfaceWindDirectionStatus  "280" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "TROYES-BARBEREY" .
+
+<TROYES-BARBEREY>  rdfs:type  dbo:city ;
+        dbo:name        "TROYES-BARBEREY" ;
+        dbo:coordinate  "48.324667, 4.02" .
+
+<http://ex.org/meteo/07015>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-12T17:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "291.05" ;
+        atd:seaLevelPressure            "101990" ;
+        atd:surfaceWindSpeed            "7.6" ;
+        atd:surfaceWindDirectionStatus  "220" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "LILLE-LESQUIN" .
+
+<LILLE-LESQUIN>  rdfs:type  dbo:city ;
+        dbo:name        "LILLE-LESQUIN" ;
+        dbo:coordinate  "50.57, 3.0975" .
+
+<http://ex.org/meteo/61998>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-12T17:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "282.65" ;
+        atd:seaLevelPressure            "98810" ;
+        atd:surfaceWindSpeed            "12.9" ;
+        atd:surfaceWindDirectionStatus  "300" ;
+        m3lite:Rainfall                 "4.0" ;
+        dbo:city                        "KERGUELEN" .
+
+<KERGUELEN>  rdfs:type  dbo:city ;
+        dbo:name        "KERGUELEN" ;
+        dbo:coordinate  "-49.352333, 70.243333" .
+
+<http://ex.org/meteo/81408>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-12T17:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "303.25" ;
+        atd:seaLevelPressure            "101300" ;
+        atd:surfaceWindSpeed            "3.1" ;
+        atd:surfaceWindDirectionStatus  "150" ;
+        m3lite:Rainfall                 "2.0" ;
+        dbo:city                        "SAINT GEORGES" .
+
+<SAINT%20GEORGES>  rdfs:type  dbo:city ;
+        dbo:name        "SAINT GEORGES" ;
+        dbo:coordinate  "3.890667, -51.804667" .
+
+<http://ex.org/meteo/07558>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-12T20:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "300.75" ;
+        atd:seaLevelPressure            "101300" ;
+        atd:surfaceWindSpeed            "3.4" ;
+        atd:surfaceWindDirectionStatus  "330" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "MILLAU" .
+
+<MILLAU>  rdfs:type     dbo:city ;
+        dbo:name        "MILLAU" ;
+        dbo:coordinate  "44.1185, 3.0195" .
+
+<http://ex.org/meteo/07747>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-12T20:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "303.85" ;
+        atd:seaLevelPressure            "101430" ;
+        atd:surfaceWindSpeed            "1.8" ;
+        atd:surfaceWindDirectionStatus  "90" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "PERPIGNAN" .
+
+<PERPIGNAN>  rdfs:type  dbo:city ;
+        dbo:name        "PERPIGNAN" ;
+        dbo:coordinate  "42.737167, 2.872833" .
+
+<http://ex.org/meteo/07481>
+        rdfs:type                       ex:ReleveMeteo ;
+        dbo:date                        "2017-06-12T23:00:00+02:00"^^xsd:dateTime ;
+        dbo:temperature                 "295.75" ;
+        atd:seaLevelPressure            "101710" ;
+        atd:surfaceWindSpeed            "3.5" ;
+        atd:surfaceWindDirectionStatus  "340" ;
+        m3lite:Rainfall                 "0.0" ;
+        dbo:city                        "LYON-ST EXUPERY" .
+
+<LYON-ST%20EXUPERY>  rdfs:type  dbo:city ;
+        dbo:name        "LYON-ST EXUPERY" ;
+        dbo:coordinate  "45.7265, 5.077833" .
